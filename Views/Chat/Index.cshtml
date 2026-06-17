@@ -1,0 +1,25 @@
+<h1>Offline AI Chatbot</h1>
+
+<form method="post" action="/Chat/Ask">
+
+    <textarea
+        name="prompt"
+        rows="8"
+        cols="80">
+    </textarea>
+
+    <br /><br />
+
+    <button type="submit">
+        Ask AI
+    </button>
+
+</form>
+
+<hr>
+
+<h3>AI Response</h3>
+
+<pre>
+@ViewBag.Response
+</pre>
